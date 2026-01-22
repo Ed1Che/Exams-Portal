@@ -1,0 +1,124 @@
+.role-selector-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+}
+
+/* Professional Header */
+.university-header {
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.university-logo {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, #0066cc15 0%, #0066cc25 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Professional Cards */
+.professional-card {
+  border-radius: 12px;
+  border: 1px solid #e9ecef;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  overflow: hidden;
+}
+
+.professional-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08) !important;
+}
+
+.icon-container {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Card Body */
+.card-body {
+  padding: 1.5rem;
+}
+
+/* Features List */
+.features-list {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+/* Buttons */
+.btn {
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .professional-card {
+    margin-bottom: 1.5rem;
+  }
+  
+  .university-header {
+    padding: 1rem 0;
+  }
+  
+  .card-body {
+    padding: 1.25rem;
+  }
+}
+
+/* Status Indicators */
+.badge {
+  font-weight: 500;
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+}
+
+/* Footer Cards */
+.bg-light {
+  background-color: #f8fafc !important;
+}
+
+/* Links */
+a {
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #0066cc !important;
+}
+
+/* Typography */
+h1 {
+  font-weight: 700;
+  color: #172b4d;
+}
+
+.lead {
+  font-weight: 400;
+  color: #5e6c84;
+}
+
+/* Smooth Animations */
+.fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
